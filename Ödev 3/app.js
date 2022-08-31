@@ -120,7 +120,7 @@ const menuList = (menuItems) => {
       <img src = ${item.img} alt = ${item.title} class = "photo"/>
       <div class = "menu-info">
       <div class ="menu-title">
-      <h4>${menu.title}</h4>
+      <h4>${item.title}</h4>
       <h4 class="price">${item.price}</h4>
       </div>
       <div class = menu-text>
